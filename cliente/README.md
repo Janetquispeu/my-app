@@ -6,3 +6,5 @@ Creamos nuestro project
 ```
 
 Se puede visualizar en: http://localhost:3000
+
+npm install --save apollo-boost react-apollo graphql graphql-tag
