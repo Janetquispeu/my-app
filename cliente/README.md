@@ -7,4 +7,6 @@ Creamos nuestro project
 
 Se puede visualizar en: http://localhost:3000
 
-npm install --save apollo-boost react-apollo graphql graphql-tag
+npm install --save apollo-boost react-apollo graphql graphql-tag --> apollo Client
+
+PLugins -> Apollo Cient dev Tools chrome
