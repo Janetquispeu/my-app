@@ -1,0 +1,47 @@
+import gql from 'graphql-tag';
+
+export const USER_QUERY = gql`{
+<<<<<<< HEAD
+  viewer{
+    repositories(last: 2) {
+      edges{
+        node{
+          createdAt
+          name
+          url
+          watchers(first: 5){
+            totalCount
+          }
+          stargazers(first: 5){
+            totalCount
+          }
+        }
+      }
+    }
+  }
+=======
+    viewer {
+        login
+        name
+        repositories(first: 10) {
+          edges {
+            node {
+              name
+              stargazers {
+                totalCount
+              }
+              forks {
+                totalCount
+              }
+              watchers {
+                totalCount
+              }
+              issues(states:[OPEN]) {
+                totalCount
+              }
+            }
+          }
+        }
+      }
+>>>>>>> d665cd8e... feat(schema): schema repositorios github
+}`;

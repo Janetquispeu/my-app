@@ -2,7 +2,7 @@ import gql from 'graphql-tag';
 
 export const USER_QUERY = gql`{
   viewer{
-    repositories(last: 2) {
+    repositories(last: 28) {
       edges{
         node{
           createdAt
