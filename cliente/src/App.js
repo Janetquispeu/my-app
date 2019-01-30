@@ -16,7 +16,7 @@ const client = new ApolloClient({
   request: operation => {
     operation.setContext({
       headers: {
-        authorization: `Bearer 4a601aaba5cd5936a59a7d7b524a0be19f5ed986`,
+        authorization: `Bearer adafcc926f6f33c68fc99fc8ac5c4f76aab1f40c`,
       },
     });
   },
@@ -27,11 +27,11 @@ class App extends Component {
     return (
       <ApolloProvider client={client}>
         <h1>Listado de Repositorios</h1>
-        <div className="b-container">
+        <div className="b-row">
           <div className="b-col-2">Index</div>
           <div className="b-col-2">Name</div>
           <div className="b-col-2">CreatedAt</div>
-          <div className="b-col-2">Url</div>
+          <div className="b-col-3">Url</div>
           <div className="b-col-2">Starts</div>
           <div className="b-col-2">Watchers</div>
         </div>

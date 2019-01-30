@@ -13,11 +13,11 @@ const Contactos = () => (
 					<React.Fragment>
 							{store.map((item, index) => {
 								return (
-									<div className="b-container" key={index}>
+									<div className="b-row" key={index}>
 										<div className="b-col-2">{index}</div>
 										<div className="b-col-2">{item.node.name}</div>
 										<div className="b-col-2">{item.node.createdAt}</div>
-										<div className="b-col-2">{item.node.url}</div>
+										<div className="b-col-3">{item.node.url}</div>
 										<div className="b-col-2">{item.node.stargazers.totalCount}</div>
 										<div className="b-col-2">{item.node.watchers.totalCount}</div>
 									</div>
