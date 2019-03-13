@@ -41,4 +41,9 @@ class App extends Component {
   }
 }
 
+<<<<<<< HEAD
+=======
+// Linea de código
+// Otra Linea de código
+>>>>>>> 40b63a35... se agrega mensaje para otra prueba
 export default App;
